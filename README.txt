@@ -1,0 +1,1 @@
+Old and new personal and school projects that I have completed the years. Older projects may be missing documentation.

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="CPRG251_A1_Group4/src"/>
+	<classpathentry kind="output" path="CPRG251_A1_Group4/bin"/>
+</classpath>
