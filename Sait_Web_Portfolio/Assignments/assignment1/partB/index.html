@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="functions.js"></script>
+    <title>Western Farms Store Page</title>
+</head>
+<body>
+    <div id="Header">
+        <h1>Western Valley Farms</h1>
+        <img id="logo" src="images/other/farm-logo.png" alt="Western Farms Logo">
+        <h2 id="dtField"></h2>
+    </div>
+    <div id="Main_Content_Area">
+        <div id="Order_Information_Form">
+            <h2>Please enter order information</h2>
+            <p id="Error_Handler"> Error Text</p>
+            <form onsubmit="return false">
+                <table id="Order_Table">
+                    <tr>
+                        <td><label>First Name</label></td>
+                        <td><input id="fName" name="FirstName" type="text" maxlength="12" pattern="^[A-Za-z -]+"></td>
+                    </tr>
+                    <tr>
+                        <td><label>LastName</label></td>
+                        <td><input id="lName" name="LastName" type="text" maxlength="12" pattern="^[A-Za-z -]+"></td>
+                    </tr>
+                    <tr>
+                        <td><label>PhoneNumber</label></td>
+                        <td><input id="pNumber" name="PhoneNumber" type="tel" pattern="[(][0-9]{3}[)][0-9]{3}[-][0-9]{4}|[0-9]{10}" placeholder="(709)330-0309"></td>
+                    </tr>
+                    <tr id="comboBox">
+                        <td><label>Delivery Method</label></td>
+                        <td><select name="orderType" id="orderType" onchange="updateDelivery()"><option value="pickup">Pickup</option><option value="delivery">Delivery</option></select></td>
+
+                    </tr>
+                    <tr id="delivery">
+                        <td><label>Delivery Address</label></td>
+                        <td><input id="dPlace" name="DeliveryPlace" type="text"></td>
+                    </tr>
+                    <tr id="pickup">
+                        <td><label id="timeLabel">Desired Pickup Time</label></td>
+                        <td><input id="dTime" name="DeliveryTime" type="datetime-local"></td>
+                    </tr>
+                </table>
+                <div class="Buttons">
+                    <input class="Button" type="reset">
+                    <input class="Button" type="submit" onclick="formSubmission()" >
+                </div>
+            </form>
+        </div>
+        <div id="Order_Shopping">
+            <h2>Western Farms Product Page</h2>
+            <form onsubmit="return false">
+                <h3>Hampers</h3>
+                <table id=Hamper_Table>
+                    <tr>
+                        <td><figure><img src="images/hampers/vegetables.jpg" alt="Vegetable Hamper"></figure></td>
+                        <td><label>Vegetable Hamper</label></td>
+                        <td><label>20kg: $30.00</label></td>
+                        <td><label id="vegetableLabel"> Enter Number of Hampers </label></td> 
+                        <td><input id="vegetableNumber" type="number" min="0" value="0"></td>   
+                    </tr>
+                    <tr>
+                        <td><figure><img src="images/hampers/fruit.jpg" alt="Fruit Hamper"></figure></td>
+                        <td><label>Fruit Hamper</label></td>
+                        <td><label>10kg: $20.00</label></td>
+                        <td><label id="fruitLabel"> Enter Number of Hamers</label></td> 
+                        <td><input id="fruitNumber" type="number" min="0" value="0"></td>                     
+                    </tr>
+                </table>
+                <h3>Meats</h3>
+                <table id="Meat_Table">
+                    <tr>
+                        <td><figure><img src="images/meat/chicken.jpg" alt="Chicken"></figure></td>
+                        <td><label>Fresh Chickens</label></td>
+                        <td><label>$4.00 / kg</label></td>
+                        <td><label id="chickenLabel"> Enter Whole Chickens (2.5 kg per Chicken) </label></td> 
+                        <td><input id="chickenNumber" type="number" min="0" value="0"></td>                      
+                    </tr>
+                    <tr>
+                        <td><figure><img src="images/meat/pork.webp" alt="Pork"></figure></td>
+                        <td><label>Pork</label></td>
+                        <td><label>$5.00 / kg</label></td>
+                        <td><label id="porkLabel"> Enter Kilograms </label></td>  
+                        <td><input id="porkNumber" type="number" min="0" value="0"></td>                   
+                    </tr>
+                </table>
+            <div class="Buttons">
+                <input class="Button" type="reset">
+                <input class="Button" type="submit" onclick="toCheckout()">
+            </div>
+        </div>
+        <div id="Receipt">
+            <h2>Order Details</h2>  
+            <p id="Receipt_Details"></p>
+            <table id="Receipt_Table"></table>
+            <table id="Receipt_Total"></table>
+        </div>
+    </div>
+</body>
+</html>

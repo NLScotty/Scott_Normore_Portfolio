@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Lab Three</title>
+</head>
+<body>
+    <div id="Main_Content_Area">
+        <div id="Title">
+            <h1>Western Columbia Grocers</h1>
+            <p>Registraton Page</p>
+        </div>
+        <form action="mailto:Scott.Normore@edu.sait.ca" method="GET">
+            <table>
+                <tr>
+                    <td><label>Name</label></td>
+                    <td class="InputBox"><input name="Name" type="text" maxlength="25"></td>
+                </tr>
+                <tr>
+                    <td><label>Address</label></td>
+                    <td class="InputBox"><input name="Address" type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Phone Number</label></td>
+                    <td class="InputBox"><input name="Phone" type="tel" pattern="[(][0-9]{3}[)][0-9]{3}[-][0-9]{4}|[0-9]{10}"></td>
+                </tr>
+                <tr>
+                    <td><label>Age</label></td>
+                    <td class="InputBox"><input name="Age" type="number"></td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td class="InputBox"><input name="Email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></td>
+                </tr>
+                <tr>
+                    <td><label>Registration Date</label></td>
+                    <td class="InputBox"><input name="Date" type="date"></td>
+                </tr>
+            </table>
+            <div>
+                <input class="Button" type="submit">
+                <input class="Button" type="reset">
+            </div>
+        </form>
+   </div>
+</body>
+</html>

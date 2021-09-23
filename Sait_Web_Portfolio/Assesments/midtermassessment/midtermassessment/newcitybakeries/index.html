@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Cake Site</title>
+</head>
+<body>
+    <div id="Main_Content_Area">
+        <div id="Title_Area">
+            <img src="images/Cake.png" id="logo">
+            <h1 id="title"> Newcity Bakeries </h1>
+            <img src="images/Cake.png" id="logo">
+        </div>
+        <div id="Order_Page">
+            <form id="Customer_Form" onsubmit="return false;">
+                <h2>Customer Information</h2>
+                <table id="Customer_Table">
+                    <tr>
+                        <td class="tooltip"><label class="Field">First Name</label> <span class="tooltiptext">No special characters</span></td>
+                        <td class="InfoInputBox"><input id="fName" type="text" pattern="^[A-Za-z -]+">
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="tooltip"><label class="Field">Last Name</label> <span class="tooltiptext">No special characters</span></td>
+                        <td class="InfoInputBox"><input id="lName" type="text" pattern="^[A-Za-z -]+"></td>
+                    </tr>
+                    <tr>
+                        <td class="tooltip"><label class="Field">Steet Address</label> <span class="tooltiptext">Place to be delivered</span></td>
+                        <td class="InfoInputBox"><input id="address" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td class="tooltip"><label class="Field">Postal Code</label> <span class="tooltiptext">C#C#C# Format</span></td>
+                        <td class="InfoInputBox"><input id="pCode" type="text" pattern="[A-Z][0-9][A-Z][0-9][A-Z][0-9]" placeholder="A9A9A9"></td>
+                    </tr>
+                    <tr>
+                        <td class="tooltip"><label class="Field">Phone Number</label> <span class="tooltiptext">(###)###-#### Format</span></td>
+                        <td class="InfoInputBox"><input id="phone" type="tel" pattern="[(][0-9]{3}[)][0-9]{3}[-][0-9]{4}|[0-9]{10}" placeholder="(709)330-0309"></td>
+                    </tr>
+                    <tr>
+                        <td class="tooltip"><label class="Field">Email</label> <span class="tooltiptext">Must have valid domain</span></td>
+                        <td class="InfoInputBox"><input id="email" type="email"></td>
+                    </tr>
+                </table>
+                <h2>Cake Information</h2>
+                <table id="Cake_Selection">
+                    <tr>
+                        <td><label class="Field">Cake Shape</label></td>
+                        <td><label>Sheet Cake</label></td>
+                        <td><input type="radio" id="sheet" name="cake" value="square" onchange="updateCakeSelection()" checked></td>
+                        <td><label>Circle Cake</label></td>
+                        <td><input type="radio" id="circle" name="cake" value="square" onchange="updateCakeSelection()"></td>
+                    </tr>
+                </table>
+                <div id="Sheet_Cake">
+                    <table id="Sheet_Cake_Table">
+                        <tr>
+                            <td class="tooltip"><label class="Field">Length in cm</label> <span class="tooltiptext">Min length:30 max legnth:60</span></td>
+                            <td><input type="number" id="length" min="30" max="60"></td>
+                            <td class="tooltip"><label class="Field">Width in cm</label> <span class="tooltiptext">Min width:30 max width:45</span></td>
+                            <td><input type="number" id="width" min="30" max="45"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="Circle_Cake">
+                    <table id="Circle_Cake_Table">
+                        <tr>
+                            <td class="tooltip"><label class="Field">Radius in cm</label> <span class="tooltiptext">Min radius:15 max radius:30</span></td>
+                            <td><input type="number" id="radius" min="15" max="30"></td>
+                        </tr>
+                    </table>
+                </div>
+                <table id="Layers_Table">
+                    <tr>
+                        <td class="tooltip"><label class="Field">Layers</label> <span class="tooltiptext">Must have one layer</span></td>
+                        <td><input type="number" id="layers" min="1" max="99"></td>
+                    </tr>
+                </table>
+                <label class="Field">Extras</label>
+                <table id="Extras">
+                    <tr>
+                        <td class="tooltip"><label>Cream Cheese Icing</label> <span class="tooltiptext">Replaces normal icing with cream cheese icing</span></td>
+                        <td><input type="checkbox" id="icing"></td>
+                    </tr>
+                    <tr>
+                        <td class="tooltip"><label>Fruit and Almond Toppings</label> <span class="tooltiptext">Sprinkle Fruit and almonds among the surface of the Cake</span></td>
+                        <td><input type="checkbox" id="toppings"></td>
+                    </tr>
+                    <tr>
+                        <td class="tooltip"><label>Fruit Jam Filling</label> <span class="tooltiptext">Jam filling inbetween the layers</span></td>
+                        <td><input type="checkbox" id="filling"></td>
+                    </tr>
+                </table>
+                <table id="buttons">
+                    <tr>
+                        <td><input id="submit" class="Button" type="reset"></td>
+                        <td><input id="submit" class="Button" type="submit" onclick="onSubmit();"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div id="Invoice_Page">
+            <p id="Customer_Info"></p>
+            <p> Your Order:</p>
+            <table id="Invoice_Table">
+            </table>
+        </div>
+    </div>
+</body>
+</html>

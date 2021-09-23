@@ -1,0 +1,162 @@
+body{
+    background-color: #314e28;
+    font-family: sans-serif;
+    text-align: center;
+}
+table{
+    border-spacing: 10px;
+}
+#Main_Content_Area{
+    background: rgb(232, 240, 160);
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 20px 20px 20px 20px;
+    font-size:120%;
+}
+#Title_Area{
+    background: #abf88d;
+    text-align: center;
+    height: 5em;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 170%;
+}
+#title{
+    display: inline-block;
+}
+#logo{
+    padding-top: 5px;
+    display: inline-block;
+    width: 60px;
+    height: 80px;
+    position: relative;
+    top:15px;
+}
+h2{
+    text-align: center;
+}
+#Customer_Table{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.InfoInputBox{
+    width: 80%;
+}
+.InfoInputBox input{
+    width: 80%;
+}
+#pCode{
+    width: 70px;
+    margin-left: 9.15%;
+    float: left;
+}
+#phone{
+    width: 110px;
+    margin-left: 9.15%;
+    float: left;
+}
+#fName{
+    width: 200px;
+    margin-left: 9.15%;
+    float: left;
+}
+#lName{
+    width: 200px;
+    margin-left: 9.15%;
+    float: left;
+}
+#Planter_Selection{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+#Square_Planter_Table{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+#Cone_Planter_Table{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+#Sphere_Planter_Table{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+#Cylinder_Planter_Table{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+#Layers_Table{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+#Extras{
+    width: 60%;
+    margin: auto;
+    text-align: center; 
+}
+
+#button{
+    float: center;
+}
+.Field{
+    font-weight: bolder;
+}
+
+#buttons{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.Button{
+    width: 30%;
+}
+#Invoice_Page{
+    text-align: left;
+    width: 50%;
+    margin: auto;
+    display: none;
+}
+
+/* The Tool tips were made throught the W3schools tutorial, here: https://www.w3schools.com/css/css_tooltip.asp */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #abf88d;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+    font-size: 90%;
+}
+  
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #abf88d;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}

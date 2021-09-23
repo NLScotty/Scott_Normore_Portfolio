@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro&display=swap');
+
+@media all{
+    body{
+        background-color: aliceblue;
+        font-family: 'Farro', 'Trebuchet MS';
+        font-size: 120%;
+    }
+    #Top_Of_Page{
+        background-color: #0052cc;
+        color: aliceblue;
+        text-align: center;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-top: -10px;
+    }
+    #Main_Content{
+        margin-left: 10%;
+        margin-right: 10%;
+        background-color: #dce5f8;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-bottom: -10px;
+    }
+    .Title{
+        font-size: 150%;
+        font-weight: bold;
+    }
+    .Heading{
+        font-size: 130%;
+        font-weight: bold;
+    }
+    .Photo_Entry{
+        display: block;
+        align-self: center;
+        max-width: 800px;
+    }
+    .InfoItem{
+        display: block;
+    }
+    img {
+        width: 100%;
+        border-radius: 25px;
+    }  
+}
+@media print{
+    body{
+        font-family: 'sans-serif' !important;
+        background-color: white;
+        font-size: 100%;
+    }
+    .Heading{
+        font-size: 110%;
+    }
+    .Title{
+        font-size: 130%;
+    }
+    #Top_Of_Page{
+        background-color: white;
+        color: black;
+    }
+    #Main_Content{
+        background-color: white;
+    }
+}

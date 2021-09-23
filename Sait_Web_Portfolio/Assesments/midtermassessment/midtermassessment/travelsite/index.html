@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>NLTravels </title>
+</head>
+<body onload="onLoad();">
+    <div id="Header">
+        <div id="logo_container">
+            <img id="logo" src="images/NLTravels.png" alt="logo of NLTravels">
+        </div>
+        <div id="title_container">
+            <h1 id="title">NL Travels</h1>
+        </div>
+    </div>
+    <div id="Photo_Area">
+        <img id="slideshow" src="images/slideshow/stjohns_downtown.jpg" alt="Overhead veiw of Downtown St.John's">
+    </div>
+
+    <div id="Lower_Content_Area">
+        <div id="Left_Button_Area" onclick="onLeftButtonClick();">
+            <div id="Left_Button">
+                <label> &larr;</label>
+            </div>
+        </div>
+
+        <div id="Center_Area">
+            <label id="caption">"Birds-eye" view of Downtown, St.John's</label>
+        </div>
+
+        <div id="Right_Button_Area" onclick="onRightButtonClick();">
+            <div id="Right_Button">
+                <label> &rarr;</label>
+            </div>
+        </div>
+    </div>
+    <div id="Footer">
+        <p>NLtravels, 201 RockyBrook Road, NLTravels@domain.ca</p>
+    </div>
+</body>
+</html>

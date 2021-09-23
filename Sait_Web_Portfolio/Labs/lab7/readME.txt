@@ -1,0 +1,1 @@
+The "Hidden Link" help boxes are hidden in the labels

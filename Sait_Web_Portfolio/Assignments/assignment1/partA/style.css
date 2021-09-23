@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(10, 112, 180);
+    background-image: url("https://www.transparenttextures.com/patterns/graphy.png");
+}
+#mainContentArea{
+    width: 80%;
+    margin: auto;
+    background-color: whitesmoke;
+    color: whitesmoke;
+    padding: 1%;
+    font-size: 1.1em;
+}
+#header{
+    margin-bottom: 2%;
+}
+#titleBox{
+    background-image: url("images/other/depositphotos_cropped.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 0.005%;
+    padding-bottom: 0.005%;
+    margin-bottom: 2%;
+}
+#navigationBar{
+    margin-left: 1%;
+}
+.navBarItem{
+    display: inline-block;
+    font-size: 1.5em;
+    width:32.62%;
+    background-color: rgb(10, 112, 180);
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.navBarItem:hover{
+    background-color: orange;
+    font-weight: bold;
+}
+.selectedBarItem{
+    display: inline-block;
+    font-size: 1.5em;
+    width:32.62%;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: bold;
+}
+#textContentArea{
+    background: rgb(10, 112, 180);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 10%;
+}
+h2{
+    font-size: 1.6em;
+    text-align: center;  
+}
+p::first-letter{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.imageEntry{
+    background-color: orange;
+    border-radius: 1em;
+    padding: 1.5%;
+    padding-bottom: 1%;
+    text-align: center;
+    display: inline-block;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: .2em;
+    font-size: 0.8em;
+}
+
+#image1{
+    float:left;
+    margin-right: 1em;
+}
+
+#image2{
+    float:right;
+    margin-left: 1em;
+}
+#image3{
+    float:left;
+    margin-right: 1em;
+}
+#image4{
+    float:right;
+    margin-left: 1em;
+}
+#image5{
+    float:left;
+    margin-right: 1em;
+}
+img{
+    width: 20em;
+    transition: 1.5s;
+}
+img:hover{
+    transform: scale(2.0); 
+}
+#footer{
+    text-align: center;
+    font-size: .6em;
+    color:grey;
+    display: block;
+}
+a:link{
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    color: whitesmoke;
+}
+h2{
+    clear:both;
+}

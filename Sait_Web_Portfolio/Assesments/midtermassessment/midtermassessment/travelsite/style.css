@@ -1,0 +1,94 @@
+body{
+    background-color: aliceblue;
+}
+#Header{
+    text-align: center;
+    height: 150px;
+    width: 63.5%;
+    margin: auto;
+    background-color: rgb(110, 119, 201);
+    margin-bottom: 5px;
+}
+#Lower_Content_Area{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+#Left_Button_Area{
+    font-size:150%;
+    font-weight: 600;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    width: 10%;
+    height: 70px;
+    background-color:rgb(187, 93, 93);
+}
+#Left_Button_Area:hover{
+    background-color: rgb(240, 54, 54);
+}
+
+#Center_Area{
+    font-size:150%;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;;
+    width: 70%;
+    height: 70px;
+    background-color: rgb(110, 119, 201);
+}
+#Right_Button_Area{
+    font-size:150%;
+    font-weight: 600;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    width: 10%;
+    height: 70px;
+    background-color:rgb(187, 93, 93);
+}
+#Right_Button_Area:hover{
+    background-color: rgb(240, 54, 54);
+}
+
+#Photo_Area{
+    margin: auto;
+    max-width: 63.5%;
+    max-height: 40%;
+}
+img{
+    width: 100%;
+    height: 600px;
+}
+#logo_container{
+    display: inline-block;
+    width: 100px;
+}
+#title_container{
+    display: inline-block;
+    width: 400px;
+    height: 70px;
+}
+#logo{
+    width: 120px;
+    height: 90px;
+    position: relative;
+    top:20px;
+}
+#title{ 
+    font-size:400%;
+    color:goldenrod;
+    text-shadow: 2px 2px 8px blue;
+}
+#slideshow{
+    transition: opacity 0.2s;
+}
+#Footer{
+    width: 63.5%;
+    margin: auto;
+    background-color: gold;
+    text-align: center;
+    
+}

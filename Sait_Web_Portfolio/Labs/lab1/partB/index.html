@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Contains meta information. Generated using ! on visual studio-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab One</title>
+</head>
+<body>
+    <!-- A div for the tittle allows felxibility on it's style and position through CSS-->
+    <div id="tittle">
+        <h1>index page</h1>
+    </div>
+    <!-- A div for the maincontent allows felxibility on it's position and item alignments through CSS-->
+    <div id="main_content">
+        <form action="mailto:Scott.Normore@edu.sait.ca" method="GET">
+            <!-- One can change the alignment of the form using CSS by calling the id "form"-->
+            <!-- I decided to inlcude my form inside the table to better align the boxes, as you recommended in class-->
+            <table id="sait_form">
+                <!-- the header for the form-->
+                <thead>
+                    <tr>
+                            <th colspan="2">Sait Campus Form</th>
+                    </tr>
+                </thead>
+                <!-- The text field inputs-->
+                <!-- I used the input types to enforce proper format. I also assigned names to fields based on what I think would be useful names for the information-->
+                <tr>
+                    <td><label>Name</label></td>
+                    <td><input name="name" type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Email Address</label></td>
+                    <td><input name="email address" type="email"></td>
+                </tr>
+                <tr>
+                    <td>Contact Phone</td>
+                    <td><input name="phone number" type="tel"></td>
+                </tr>
+                <!-- The checkbox selection-->
+                <tr>
+                    <td colspan="2">Check the favorite aspects of SAIT campus</td>
+                </tr>
+                <tr>
+                    <td>Campus Location</td>
+                    <td><input name="cmploc" type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Athletic Center</td>
+                    <td><input name="athcent" type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Student Center</td>
+                    <td><input name="stucent" type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Lab Classes</td>
+                    <td><input name="labclass" type="checkbox"></td>
+                </tr>
+                <!-- The radio selection, sharing the same group "learnedinfo"-->
+                <tr>
+                    <td colspan="2">Select how one came to know about SAIT</td>
+                </tr>
+                <tr>
+                    <td>Open House</td>
+                    <td><input name="learnedinfo" value="openhouse" type="radio"></td>
+                </tr>
+                <tr>
+                    <td>Advertising</td>
+                    <td><input name="learnedinfo" value="advert" type="radio"></td>
+                </tr>
+                <tr>
+                    <td>School Counselling</td>
+                    <td><input name="learnedinfo" value="schlcoun" type="radio"></td>
+                </tr>
+                <tr>
+                    <td>Word of Mouth</td>
+                    <td><input name="learnedinfo" value="wordmouth" type="radio"></td>
+                </tr>
+                <!-- Buttons for submitting and resetting-->
+                <tr>
+                    <td><input type="submit"></td>
+                    <td><input type="reset"> </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

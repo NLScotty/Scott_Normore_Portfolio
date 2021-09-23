@@ -1,0 +1,64 @@
+body{
+    color:rgb(255, 255, 255);
+    background-color: rgb(113, 203, 255);
+    background-size: 100%;
+    opacity: 93%;
+    background-image: url("images/bg.png");
+}
+#Content_Header{
+    font-family: 'Lucida Sans',sans-serif;
+    margin: auto;
+    margin-top: 5%;
+    max-width: 50%;
+    background-color: rgb(14, 63, 124);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#Main_Content_Area{
+    font-family: 'Lucida Sans',sans-serif;
+    margin: auto;
+    margin-top: 5%;
+    max-width: 50%;
+    background-color: rgb(14, 63, 124);
+    padding: 10px;
+    border-radius: 10px;
+}
+#ListArea{
+    font-family: 'Lucida Sans',sans-serif;
+    margin: auto;
+    margin-top: 5%;
+    max-width: 50%;
+    background-color: rgb(14, 63, 124);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+td{
+    padding-bottom: 20px;
+}
+.FormHeader{
+    text-align: center;
+}
+.CategoryHeader{
+    text-align: center;
+}
+table{
+    width: 100%;
+}
+
+.InputBox{
+    width: 80%;
+}
+.InputBox input{
+    width: 98%;
+}
+.Button{
+    display: inline block;
+    width: 49%;
+}
+img{
+    width: 180px;
+    height: 160px;
+}

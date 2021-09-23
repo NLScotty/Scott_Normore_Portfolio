@@ -1,0 +1,559 @@
+[
+	{
+		"id": 1,
+		"firstName": "Fred",
+		"lastName" : "Flintstone",
+		"address": "34 Flintrock Way",
+		"postalCode" : "T3R 5B6",
+		"phone" : "403-295-9076",
+		"type": "C"
+	},
+	{
+		"id":2, 
+		"firstName": "Bugs", 
+		"lastName" : "Bunny",
+		"address": "22 Rabbit Hole Park",
+		"postalCode" : "W2A 5K8",
+		"phone":"403-288-7213",
+		"type": "R"
+	},
+	{
+		"id":3, 
+		"firstName": "Samuel", 
+		"lastName" : "Ludlow III",
+		"address": "2345 The Rich Man Way",
+		"postalCode" : "X2R 3M6",
+		"phone":"403-324-9812",
+		"type": "C"
+	},
+	{	
+		"id":4, 
+		"firstName": "Bill", 
+		"lastName" : "Partley",
+		"address": "11 Partway Road",
+		"postalCode" : "V7Z 4G7",
+		"phone":"403-232-9876",
+		"type": "R"
+	},
+	{
+		"id":5, 
+		"firstName": "Dr.", 
+		"lastName" : "Evil",
+		"address": "Some Where in the Caribean",
+		"postalCode" : "N4W 8H3",
+		"phone":"999-999-9999",
+		"type": "C"
+	},
+	{
+		"id":6, 
+		"firstName": "Perky", 
+		"lastName" : "Volunteer",
+		"address": "343 Volly Road",
+		"postalCode" : "B4U 8V3",
+		"phone":"403-345-9876",
+		"type": "R"
+	},
+	{
+		"id":7, 
+		"firstName": "BobBob", 
+		"lastName" : "Never",
+		"address": "22 NeverReally Lane",
+		"postalCode" : "C2K 2N0",
+		"phone":"403-674-7865",
+		"type": "R"
+	},
+	{
+		"id":8, 
+		"firstName": "Homer", 
+		"lastName" : "Simpson",
+		"address": "345 Doooah Drive",
+		"postalCode" : "D0A 0H0",
+		"phone":"403-855-4287",
+		"type": "R"
+	},
+	{
+		"id":9, 
+		"firstName": "Wilbur", 
+		"lastName" : "Wimp",
+		"address": "44 WumpWump Street",
+		"postalCode" : "W1M 3P3",
+		"phone":"403-555-8888",
+		"type": "R"
+	},
+	{
+		"id":10, 
+		"firstName": "Really", 
+		"lastName" : "Depressed",
+		"address": "33 Has No Life Drive",
+		"postalCode" : "B2C 4S7",
+		"phone":"403-456-7890",
+		"type": "R"
+	},
+	{
+		"id":11, 
+		"firstName": "Sam", 
+		"lastName" : "Packitaway",
+		"address": "345 Stash Road",
+		"postalCode" : "Y2X 1L6",
+		"phone":"403-546-9867",
+		"type": "C"
+	},
+	{
+		"id":12,
+		"firstName": "Nurse",
+		"lastName" : "Betty",
+		"address": "32 Way Out There",
+		"postalCode" : "M5W 4E6",
+		"phone":"403-456-7766",
+		"type": "R"
+	},
+	{
+		"id":13, 
+		"firstName": "Donald",
+		"lastName" : "Duck",
+		"address": "76 Duck Pond Lawn",
+		"postalCode" : "Z5X 8F4",
+		"phone":"403-926-9165",
+		"type": "C"
+	},
+	{
+		"id":14, 
+		"firstName": "Joe", 
+		"lastName" : "Blow",
+		"address": "450 Blowout Road",
+		"postalCode" : "Y8V 7N2",
+		"phone":"403-743-9854",
+		"type": "R"
+	},
+	{
+		"id":15, 
+		"firstName": "Pebbles", 
+		"lastName" : "Flintstone",
+		"address": "34 Flintrock Way",
+		"postalCode" : "T3R 5B6",
+		"phone":"403-295-9076",
+		"type": "C"
+	},
+	{
+		"id":16, 
+		"firstName": "Barney", 
+		"lastName" : "Rubble",
+		"address": "876 Rimrock Place",
+		"postalCode" : "Y4H 4M7",
+		"phone":"403-765-2763",
+		"type": "C"
+	},
+	{
+		"id":17, 
+		"firstName": "Huey",
+		"lastName" : "Duck",
+		"address": "76 Duck Pond Lawn",
+		"postalCode" : "Z5X 8F4",
+		"phone":"403-926-9165",
+		"type": "R"
+	},
+	{
+		"id":18, 
+		"firstName": "Wylie", 
+		"lastName" : "Coyote",
+		"address": "9 Desert Way",
+		"postalCode" : "T9M 4G7",
+		"phone":"403-453-9876",
+		"type": "C"
+	},
+	{
+		"id":19, 
+		"firstName": "Foghorn", 
+		"lastName" : "Leghorn",
+		"address": "34 Chicken Coop Loop",
+		"postalCode" : "B7Y 8N4",
+		"phone":"403-765-0834",
+		"type": "C"
+	},
+	{
+		"id":20, 
+		"firstName": "Sylvester", 
+		"lastName" : "Cat",
+		"address": "88 Kitchen Rug Way",
+		"postalCode" : "Y4F 9Z5",
+		"phone":"403-876-3487",
+		"type": "R"
+	},
+	{
+		"id":21, 
+		"firstName": "Annoying", 
+		"lastName" : "Dog",
+		"address": "99 Over the Back Fence",
+		"postalCode" : "R3S 2L7",
+		"phone":"403-438-9175",
+		"type": "R"
+	},
+	{
+		"id":22, 
+		"firstName": "Bart", 
+		"lastName" : "Simpson",
+		"address": "345 Doooah Drive",
+		"postalCode" : "D0A 0H0",
+		"phone":"403-855-4287",
+		"type": "C"
+	},
+	{
+		"id":23, 
+		"firstName": "Betty", 
+		"lastName" : "Rubble",
+		"address": "876 Rimrock Place",
+		"postalCode" : "Y4H 4M7",
+		"phone":"403-765-2763",
+		"type": "C"
+	},
+	{
+		"id":24, 
+		"firstName": "Big", 
+		"lastName" : "Chickenhawk",
+		"address": "465 Top of Big Oak Tree",
+		"postalCode" : "D9K 5M7",
+		"phone":"403-475-2876",
+		"type": "C"
+	},
+	{
+		"id":25, 
+		"firstName": "Marge", 
+		"lastName" : "Simpson",
+		"address": "345 Doooah Drive",
+		"postalCode" : "D0A 0H0",
+		"phone":"403-855-4287",
+		"type": "R"
+	},
+	{
+		"id":26, 
+		"firstName": "Tweetie", 
+		"lastName" : "Bird",
+		"address": "88 Bird Cage Way",
+		"postalCode" : "Y4F 9Z5",
+		"phone":"403-876-3487",
+		"type": "R"
+	},
+	{
+		"id":27, 
+		"firstName": "The", 
+		"lastName" : "Other Road Runner",
+		"address": "222 of the Desert",
+		"postalCode" : "T9M 6V4",
+		"phone":"403-876-9087",
+		"type": "R"
+	},
+	{
+		"id":28, 
+		"firstName": "Wilma", 
+		"lastName" : "Flintstone",
+		"address": "34 Flintrock Way",
+		"postalCode" : "T3R 5B6",
+		"phone":"403-295-9076",
+		"type": "R"
+	},
+	{
+		"id":29, 
+		"firstName": "Pepi", 
+		"lastName" : "LePew",
+		"address": "77 Forest Mews",
+		"postalCode" : "B8B 7Z8",
+		"phone":"403-546-7623",
+		"type": "C"
+	},
+	{
+		"id":30, 
+		"firstName": "Luey", 
+		"lastName" : "Duck",
+		"address": "76 Duck Pond Lawn",
+		"postalCode" : "Z5X 8F4",
+		"phone":"403-926-9165",
+		"type": "R"
+	},
+	{
+		"id":31, 
+		"firstName": "Daffy", 
+		"lastName" : "Duck",
+		"address": "44 Barnyard Corners",
+		"postalCode" : "W3F 7K9",
+		"phone":"403-898-7651",
+		"type": "C"
+	},
+	{
+		"id":32, 
+		"firstName": "The", 
+		"lastName" : "Buzzard",
+		"address": "12 The Old Dead Tree",
+		"postalCode" : "N6Y 7U5",
+		"phone":"403-423-5632",
+		"type": "R"
+	},
+	{
+		"id":33, 
+		"firstName": "Maggie", 
+		"lastName" : "Simpson",
+		"address": "345 Doooah Drive",
+		"postalCode" : "D0A 0H0",
+		"phone":"403-855-4287",
+		"type": "R"
+	},
+	{
+		"id":34, 
+		"firstName": "Elmer", 
+		"lastName" : "Fudd",
+		"address": "23 The Down Home Farm",
+		"postalCode" : "K8L 7C4",
+		"phone":"403-765-9807",
+		"type": "C"
+	},
+	{
+		"id":35, 
+		"firstName": "Maniana", 
+		"lastName" : "Gonzalas",
+		"address": "98 Cacti Corners",
+		"postalCode" : "B0B 0B0",
+		"phone":"403-458-4937",
+		"type": "C"
+	},
+	{
+		"id":36, 
+		"firstName": "Porky", 
+		"lastName" : "Pig",
+		"address": " 88 Barnyard Corners",
+		"postalCode" : "W3F 7K9",
+		"phone":"403-898-4498",
+		"type": "R"
+	},
+	{
+		"id":37, 
+		"firstName": "Bam Bam", 
+		"lastName" : "Rubble",
+		"address": "876 Rimrock Place",
+		"postalCode" : "Y4H 4M7",
+		"phone":"403-765-2763",
+		"type": "R"
+	},
+	{
+		"id":38, 
+		"firstName": "Duey", 
+		"lastName" : "Duck",
+		"address": "76 Duck Pond Lawn",
+		"postalCode" : "Z5X 8F4",
+		"phone":"403-926-9165",
+		"type": "C"
+	},
+	{
+		"id":39, 
+		"firstName": "James", 
+		"lastName" : "Bond",
+		"address": "007 CloseBy Mi6",
+		"postalCode" : "O7O 7O7",
+		"phone":"403-700-0070",
+		"type": "C"
+	},
+	{
+		"id":40, 
+		"firstName": "The", 
+		"lastName" : "Road Runner",
+		"address": "222 of the Desert",
+		"postalCode" : "T9M 6V4",
+		"phone":"403-876-9087",
+		"type": "R"
+	},
+	{
+		"id":41, 
+		"firstName": "Mickey", 
+		"lastName" : "Mouse",
+		"address": "123 DizzyLand Way",
+		"postalCode" : "M4U 2I4",
+		"phone":"403-293-2849",
+		"type": "C"
+	},
+	{
+		"id":42, 
+		"firstName": "Pluto", 
+		"lastName" : "Dog",
+		"address": "1 DogHouse Place",
+		"postalCode" : "N8R 2B8",
+		"phone":"403-345-9876",
+		"type": "R"
+	},
+	{	
+		"id":43, 
+		"firstName": "Minney", 
+		"lastName" : "Mouse",
+		"address": "123 DizzyLand Way",
+		"postalCode" : "M4U 2I4",
+		"phone":"403-293-2849",
+		"type": "R"
+	},
+	{
+		"id":44, 
+		"firstName": "Tasmainian", 
+		"lastName" : "Devil",
+		"address": "234 Whirling Dervish Road",
+		"postalCode" : "T8M 5B7",
+		"phone":"403-208-4837",
+		"type": "C"
+	},
+	{
+		"id":45, 
+		"firstName": "Yosimety", 
+		"lastName" : "Sam","address": "12 Where in the SamHell",
+		"postalCode" : "Q7C 4C2",
+		"phone":"403-438-0843",
+		"type": "C"
+	},
+	{
+		"id":46, 
+		"firstName": "Another", 
+		"lastName" : "Road Runner",
+		"address": "222 of the Desert",
+		"postalCode" : "T9M 6V4",
+		"phone":"403-876-9087",
+		"type": "R"
+	},
+	{
+		"id":47, 
+		"firstName": "Speedy", 
+		"lastName" : "Gonzalas",
+		"address": "98 Cacti Corners",
+		"postalCode" : "B0B 0B0",
+		"phone":"403-458-4937",
+		"type": "C"
+	},
+	{
+		"id":48, 
+		"firstName": "More Fastus",
+		"lastName" : "Road Runner",
+		"address": "222 of the Desert",
+		"postalCode" : "T9M 6V4",
+		"phone":"403-876-9087",
+		"type": "C"
+	},
+	{
+		"id":49, 
+		"firstName": "Barky", 
+		"lastName" : "Dog",
+		"address": "77 Right Next Door",
+		"postalCode" : "M7N 7L4",
+		"phone":"403-764-8321",
+		"type": "R"
+	},
+	{
+		"id":50, 
+		"firstName": "Little", 
+		"lastName" : "Chickenhawk",
+		"address": "465 Top of Big Elm Tree",
+		"postalCode" : "D9K 5M7",
+		"phone":"403-475-2876",
+		"type": "R"
+	},
+	{
+		"id":51, 
+		"firstName": "Deputy", 
+		"lastName" : "Dog",
+		"address": "233 Old Western Town",
+		"postalCode" : "B8L 5H9",
+		"phone":"403-244-7126",
+		"type": "C"
+	},
+	{
+		"id":52, 
+		"firstName": "Yogi", 
+		"lastName" : "Bear",
+		"address": "756 Bear Cave Rd",
+		"postalCode" : "N4K 5U6",
+		"phone":"403-274-8799",
+		"type": "R"
+	},
+	{
+		"id":53, 
+		"firstName": "Huckelberry", 
+		"lastName" : "Hound",
+		"address": "45 Hound Dog Haven",
+		"postalCode" : "D0G 2C4",
+		"phone":"403-555-3434",
+		"type": "C"
+	},
+	{
+		"id":54, 
+		"firstName": "Rocky", 
+		"lastName" : "Squirrel",
+		"address": "222 Old Oak Tree",
+		"postalCode" : "N8J 4B5",
+		"phone":"403-258-5429",
+		"type": "R"
+	},
+	{
+		"id":55, 
+		"firstName": "Lisa",
+		"lastName" : "Simpson",
+		"address": "345 Doooah Drive",
+		"postalCode" : "D0A 0H0",
+		"phone":"403-855-4287",
+		"type": "C"
+	},
+	{
+		"id":56, 
+		"firstName": "Lola", 
+		"lastName" : "Bunny",
+		"address": "88 Rabbit Babe Way",
+		"postalCode" : "T8T 4M4",
+		"phone":"403-287-9365",
+		"type": "R"
+	},
+	{	
+		"id":57, 
+		"firstName": "Melissa", 
+		"lastName" : "Duck",
+		"address": "456 Barnyard Place",
+		"postalCode" : "R6B 9E2",
+		"phone":"403-215-7323",
+		"type": "C"
+	},
+	{
+		"id":58, 
+		"firstName": "Petunia", 
+		"lastName" : "Pig",
+		"address": "222 Pig Sty Place",
+		"postalCode" : "Q7H 8K5",
+		"phone":"403-677-9211",
+		"type": "R"
+	},
+	{
+		"id":59, 
+		"firstName": "Penolope", 
+		"lastName" : "Pussycat",
+		"address": "45 Top of the Dryer Place",
+		"postalCode" : "Y9G 6L2",
+		"phone":"403-832-2653",
+		"type": "C"
+	},
+	{
+		"id":60, 
+		"firstName": "Booboo", 
+		"lastName" : "Bear",
+		"address": "752 Bear Cave Rd",
+		"postalCode" : "N4K 5U6",
+		"phone":"403-274-8799",
+		"type": "R"
+	},
+	{
+		"id":61, 
+		"firstName": "Marvin", 
+		"lastName" : "The Martian",
+		"address": "234 Out of this World Road",
+		"postalCode" : "Z9Z 9Z9",
+		"phone":"403-191-9191",
+		"type": "R"
+	},
+	{
+		"id":62, 
+		"firstName": "Michigan J.", 
+		"lastName" : "Frog",
+		"address": "432 Down by the Pond Way",
+		"postalCode" : "P2P 9M6",
+		"phone":"403-219-7031",
+		"type": "C"
+	}
+]

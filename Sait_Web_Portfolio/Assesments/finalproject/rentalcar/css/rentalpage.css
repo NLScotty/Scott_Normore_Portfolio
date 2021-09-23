@@ -1,0 +1,87 @@
+body{
+    color:aliceblue;
+    background-color: rgb(58, 93, 158);
+}
+#Display_Boxes{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+#Client_Box{
+    padding-left: 3em;
+    padding-right: 3em;
+    height: 46em;
+    width: 20%;
+    margin: auto;
+    background-color: darkslateblue;
+    border-radius: 25px;
+    border: 3px solid white;
+}
+#Client_List{
+    width: 100%;
+}
+#Form_Box{
+    padding-left: 3em;
+    padding-right: 3em;
+    height: 46em;
+    width: 60%;
+    margin: auto;
+    background-color: darkslateblue;
+    border-radius: 25px;
+    border: 3px solid white;
+}
+h2{
+    text-align: center;
+}
+#lname_search{
+}
+table{
+    width: 100%;
+}
+#Client_Info{
+
+}
+#Car_Selector{
+    text-align: center;
+}
+#buttons{
+    text-align: center;
+}
+#Client_Info tr td:first-child{
+    width: 15%;
+    text-align: right;
+}
+#Client_Info tr td:nth-child(2) input {
+    width: 80%;
+}
+#Addons tr td:first-child{
+    text-align: right;
+}
+#Addons tr td:nth-child(2){
+    text-align: center;
+}
+#Addons tr td:nth-child(3){
+    text-align: left;
+}
+#duration_table tr td:first-child{
+    text-align: center;
+}
+#duration_table tr td:nth-child(2){
+    text-align: left;
+}
+#Result{
+    padding-left: 3em;
+    padding-right: 3em;
+    height: 20em;
+    width: 40%;
+    margin: auto;
+    background-color: darkslateblue;
+    border-radius: 25px;
+    border: 3px solid white;
+    display: none;
+}
+img{
+    width: 90px;
+    height: 40px;
+}

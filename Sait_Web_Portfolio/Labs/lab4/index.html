@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="functions.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="Header">
+        <h1>Café Europa Take Out Order Page</h1>
+        <h2 id="dtField"></h2>
+    </div>
+    <div id="Main_Content_Area">
+        <div id="Order_Information_Form">
+            <h2>Please enter order information</h2>
+            <p id="Error_Handler"> Error Text</p>
+            <form onsubmit="return false">
+                <table id="Order_Table">
+                    <tr>
+                        <td><label>First Name</label></td>
+                        <td><input id="fName" name="FirstName" type="text" maxlength="12" pattern="^[A-Za-z -]+"></td>
+                    </tr>
+                    <tr>
+                        <td><label>LastName</label></td>
+                        <td><input id="lName" name="LastName" type="text" maxlength="12" pattern="^[A-Za-z -]+"></td>
+                    </tr>
+                    <tr>
+                        <td><label>PhoneNumber</label></td>
+                        <td><input id="pNumber" name="PhoneNumber" type="tel" pattern="[(][0-9]{3}[)][0-9]{3}[-][0-9]{4}|[0-9]{10}" placeholder="(709)330-0309"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Desired Pickup Time</label></td>
+                        <td><input id="dTime" name="DeliveryTime" type="datetime-local"></td>
+                    </tr>
+                </table>
+                <div class="Buttons">
+                    <input class="Button" type="reset">
+                    <input class="Button" type="submit" onclick="saveData()" >
+                </div>
+            </form>
+        </div>
+        <div id="Order_Shopping">
+            <h2>Café Europa Menu</h2>
+            <form onsubmit="return false">
+                <h3>Neopolitan Style Pizza</h3>
+                <table id=Pizza_Table>
+                    <tr>
+                        <td><figure><img src="images/pizza/margherita-pizza.jpg" alt="Quattro"></figure></td>
+                        <td><input id="margSelected" type="checkbox"></td>
+                        <td><label>Margherita</label></td>
+                        <td><label>$12.00</label></td>
+                        <td><input id="margNumber" type="number" min="0"></td>                    
+                    </tr>
+                    <tr>
+                        <td><figure><img src="images/pizza/quattro_Formaggi.jpg" alt="Quattro"></figure></td>
+                        <td><input id="quatSelected" type="checkbox"></td>
+                        <td><label>Quattro Formaggi</label></td>
+                        <td><label>$12.50</label></td>
+                        <td><input id="quatNumber" type="number" min="0"></td>                    
+                    </tr>
+                    <tr>
+                        <td><figure><img src="images/pizza/capricciosa-pizza.jpg" alt="Capricciosa"></figure></td>
+                        <td><input id="caprSelected" type="checkbox"></td>
+                        <td><label>Capricciosa</label></td>
+                        <td><label>$13.00</label></td>
+                        <td><input id="caprNumber" type="number" min="0"></td>                    
+                    </tr>
+                </table>
+                <h3>Sandwich Choices</h3>
+                <table id="Sandwich_Table">
+                    <tr>
+                        <td><figure><img src="images/sandwich/schnitzel-sandwich.jpeg" alt="schnitzel-sandwich"></figure></td>
+                        <td><input id="schnSelected" type="checkbox"></td>
+                        <td><label>Schnitzel</label></td>
+                        <td><label>$8.50</label></td>
+                        <td><input id="schnNumber" type="number" min="0"></td>                     
+                    </tr>
+                    <tr>
+                        <td><figure><img src="images/sandwich/mixed-grill-sandwich.jpg" alt="mixed-grill-sandwich"></figure></td>
+                        <td><input id="grilSelected" type="checkbox"></td>
+                        <td><label>Mixed Grill </label></td>
+                        <td><label>$9.50</label></td>
+                        <td><input id="grilNumber" type="number" min="0"></td>                     
+                    </tr>
+                    <tr>
+                        <td><figure><img src="images/sandwich/big-beef-sandwich.jpg" alt="big-beef-sandwich"></figure></td>
+                        <td><input id="beefSelected" type="checkbox"></td>
+                        <td><label>Big Beef on a Bun</label></td>
+                        <td><label>$10.00</label></td>
+                        <td><input id="beefNumber" type="number" min="0"></td>                     
+                    </tr>
+                </table>
+                <h3>Beverages</h3>
+                <table id="Beverages_Table">
+                    <tr>
+                        <td><figure><img src="images/beverages/coffee.jpg" alt="schnitzel-sandwich"></figure></td>
+                        <td><input id="cofeSelected" type="checkbox"></td>
+                        <td><label>Cofee</label></td>
+                        <td><label>$2.00</label></td>
+                        <td><input id="cofeNumber" type="number" min="0"></td>                     
+                    </tr>
+                    <tr>
+                        <td><figure><img src="images/beverages/latte.jpg" alt="mixed-grill-sandwich"></figure></td>
+                        <td><input id="lateSelected" type="checkbox"></td>
+                        <td><label>Latte</label></td>
+                        <td><label>$2.50</label></td>
+                        <td><input id="lateNumber" type="number" min="0"></td>                     
+                    </tr>
+                    <tr>
+                        <td><figure><img src="images/beverages/soft-drink.jpg" alt="big-beef-sandwich"></figure></td>
+                        <td><input id="sodaSelected" type="checkbox"></td>
+                        <td><label>Soft Drinks</label></td>
+                        <td><label>$1.75</label></td>
+                        <td><input id="sodaNumber" type="number" min="0"></td>                     
+                    </tr>
+                </table>
+            </form>
+            <div class="Buttons">
+                <input class="Button" type="reset">
+                <input class="Button" type="submit" onclick="displayOrder()">
+            </div>
+        </div>
+        <div id="Receipt">
+            <h2>Order Details</h2>  
+            <p id="Receipt_Details"></p>
+            <table id="Receipt_Table"></table>
+            <table id="Receipt_Total"></table>
+        </div>
+    </div>
+</body>
+</html>

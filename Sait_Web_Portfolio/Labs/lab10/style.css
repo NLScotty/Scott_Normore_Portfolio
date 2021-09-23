@@ -1,0 +1,43 @@
+body{
+    background-color: whitesmoke;
+}
+#Main_Content_Area{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 5em;
+    padding: 2em;
+    border: 10px;
+    border-color: cornflowerblue;
+    border-style: double;
+    box-shadow: 10px 10px;
+    text-align: center;
+}
+#Table_Area{
+    width: 90%;
+}
+#table{
+    width: 100%;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none; 
+  color: black;
+}
+
+#index_head{
+    width: 100%;
+    font-size: 80px; 
+}
+
+.button{
+    width: 100%;
+    font-size: 40px;
+}
+.button:hover{
+    background-color: cornflowerblue;
+    color:white
+}

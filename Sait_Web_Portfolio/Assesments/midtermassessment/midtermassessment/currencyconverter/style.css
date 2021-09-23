@@ -1,0 +1,27 @@
+body{
+    background-color: palevioletred;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    padding: 3.2em;
+}
+#Content_Area{
+    margin: auto;
+    width: 80%;
+    align-content: center;
+    background-color: maroon;
+    padding: 1em;
+    padding-bottom: 2em;
+    border-radius: 1em;
+    box-shadow: 1em 1em 1em black;
+    
+}
+table{
+    margin: auto;
+    width: 80%;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}

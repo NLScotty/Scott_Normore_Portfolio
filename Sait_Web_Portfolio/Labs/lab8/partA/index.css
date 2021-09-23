@@ -1,0 +1,20 @@
+body{
+    background-color: lightgreen;
+}
+#Tittle_Area{
+    text-align: center;
+    background-color: beige;
+    height: 80px;
+    padding-top: 10px;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+#Caption_Area{
+    width: 49%;
+    display: inline-block;
+}
+#Photo_Area{
+    width: 49%;
+    display: inline-block;
+}

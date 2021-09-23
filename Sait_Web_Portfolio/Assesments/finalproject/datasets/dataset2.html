@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script2.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Lab 9</title>
+</head>
+<body>
+    <div id="Main_Content_Area">
+        <h1>Calgary Camera Search Tool</h1>
+        <div id="Search Area">
+            <span>Search By:</span>
+            <select name="searchOption" id="searchOption">
+                <option value="number"> ID </option>
+                <option value="url"> Photo URL</option>
+                <option value="quadrant"> Quadrant </option>
+                <option value="location"> Address</option>
+            </select>
+            <span>Value:</span>
+            <input type="text" id="input">
+        </div>
+        <div id="Table_Area">
+            <table id="table">
+                <thead>
+                    <th scope="col"> Camera ID</th>
+                    <th scope="col"> Photo URL</th>
+                    <th scope="col"> Quadrant </th>
+                    <th scope="col"> Address</th>
+                    <th scope="col"> Location</th>
+                </thead>
+                <tbody id="tbody"></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+body{
+    background-color: green;
+}
+#Main_Content_Area{
+    background-color: blanchedalmond;
+    width: 70%;
+    margin: auto;
+    margin-top: 5em;
+    padding: 2em;
+    border: 10px;
+    border-color: darkseagreen;
+    border-style: double;
+    box-shadow: 10px 10px;
+    text-align: center;
+}
+#Table_Area{
+    width: 90%;
+}
+#table{
+    width: 100%;
+}

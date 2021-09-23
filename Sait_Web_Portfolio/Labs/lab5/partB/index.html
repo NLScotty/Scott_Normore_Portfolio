@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Container for my Title. This will contain the tittle-->
+    <div id="Tittle_Area">
+        <p> My Time in Newfoundland! </p>
+    </div>
+    <!-- Container for my Content Area. This will contain the images-->
+    <div id="Content_Area">
+        <!-- I use these photo Entry containers to format my images and how they are displayed on screen-->
+        <div class="Photo_Entry">
+            <figure>
+                <img src="images/photos/photo1.jpg" alt="Pictute of Myself in the woods" onclick="toggleTitle('imageTitle1')">
+                <figcaption id="imageTitle1">Me out for a walk!</figcaption>
+                <p>
+                    I'm not entirely sure why we took this photo, but it is a nice photo of me out for a stroll in the woods. Dogs are probably off screen.
+                </p>
+            </figure>
+        </div>
+        <div class="Photo_Entry">
+            <figure>
+                <img src="images/photos/photo2.jpg" alt="Picture of a boardwalk" onclick="toggleTitle('imageTitle2')">
+                <figcaption id="imageTitle2">A Boardwalk in Newfoundland.</figcaption>
+                <p>
+                    A stunning image taken by my mom of a boardwalk. I want to say it is from the East Coast trail, but I'm not entirely sure.
+                </p>
+            </figure>
+        </div>
+        <div class="Photo_Entry">
+            <figure>
+                <img src="images/photos/photo3.jpg" alt="Image of two dogs" onclick="toggleTitle('imageTitle3')">
+                <figcaption id="imageTitle3">My Dogs!</figcaption>
+                <p>
+                    Two happy dogs! The Labrador Retreiver is Carmen (crafty smart one). The mixed breed is Eben (loving, but simple minded). I will cherish the time I had with them!
+                </p>
+            </figure>
+        </div>
+        <div class="Photo_Entry">
+            <figure>
+                <img src="images/photos/photo4.jpg" alt="Image of people snowshoeing" onclick="toggleTitle('imageTitle4')">
+                <figcaption id="imageTitle4">Out Snow-shoeing</figcaption>
+                <p>
+                    Out for a snowshoe. The stomping motion required to travel in snowshoes makes the activity quite the workout.
+                </p>
+            </figure>
+        </div>
+        <div class="Photo_Entry">
+            <figure>
+                <img src="images/photos/photo5.jpg" alt="Picture of a sleepy passenger" onclick="toggleTitle('imageTitle5')">
+                <figcaption id="imageTitle5">Sleeping in the car</figcaption>
+                <p>
+                    I guess this is me after one of our hikes. I'm suprised I was in this deep of a sleep when it is so bright out.
+                </p>
+            </figure>
+        </div>
+        <div class="Photo_Entry">
+            <figure>
+                <img src="images/photos/photo6.jpg" alt="Picture of a happy dog" onclick="toggleTitle('imageTitle6')">
+                <figcaption id="imageTitle6">DOG!</figcaption>
+                <p>
+                    Our happy Dog, Eben. He was the sweetest (but really dumb) dog ever to exist!
+                </p>
+            </figure>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Lab Six</title>
+</head>
+<body>
+    <div id="Content_Header">
+        <h1>Wild Rose County Finance</h1>
+        <img src="images/logo.png" alt="Company Logo">
+    </div>
+    <div id="Main_Content_Area">
+        <div class="FormHeader">
+            <h2>Registraton Page</h2>
+        </div>
+        <div class="CategoryHeader">
+            <h3>Client Contact Information</h3>
+        </div>
+        <form onsubmit="return false;">
+            <table>
+                <tr>
+                    <td><label>Registration Date</label></td>
+                    <td class="InputBox"><input id="date" type="date"></td>
+                </tr>
+                <tr>
+                    <td><label>First Name</label></td>
+                    <td class="InputBox"><input id="fName" type="text" pattern="^[A-Za-z -]+" ></td>
+                </tr>
+                <tr>
+                    <td><label>Last Name</label></td>
+                    <td class="InputBox"><input id="lName" type="text" pattern="^[A-Za-z -]+"></td>
+                </tr>
+                <tr>
+                    <td><label>Steet Address</label></td>
+                    <td class="InputBox"><input id="address" type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Postal Code</label></td>
+                    <td class="InputBox"><input id="pCode" type="text" pattern="[A-Z][0-9][A-Z][0-9][A-Z][0-9]" placeholder="A9A9A9"></td>
+                </tr>
+                <tr>
+                    <td><label>Phone Number</label></td>
+                    <td class="InputBox"><input id="phone" type="tel" pattern="[(][0-9]{3}[)][0-9]{3}[-][0-9]{4}|[0-9]{10}" placeholder="(709)330-0309"></td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td class="InputBox"><input id="email" type="email"></td>
+                </tr>
+            </table>
+            <div class="CategoryHeader">
+                <h3>Client Personal Information</h3>
+            </div>
+
+            <table>
+                <tr>
+                    <td><label>Current Clients?</label></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td> <input type="radio" id="yes" name="client" value="yes"> <label> Yes </label> </td>
+                    <td> <input type="radio" id="no" name="client" value="no" checked> <label> No </label>  </td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td> <input type="radio" id="male" name="gender" value="male" checked> <label> Male </label> </td>
+                    <td> <input type="radio" id="female" name="gender" value="female"> <label> Female </label>  </td>
+                </tr>
+                <tr>
+                    <td><label>Age</label></td>
+                    <td ><input id="age" class="InputBox" name="age" type="number"></td>
+                </tr>
+                <tr>
+                    <td><label>Home Owner or Renter?</label></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td> <input type="radio" id="owner" name="home" value="Owner" checked> <label> Owner </label> </td>
+                    <td> <input type="radio" id="renter" name="home" value="Renter"> <label> Renter </label>  </td>
+                </tr>
+                <tr>
+                    <td><label>Annual Gross Income</label></td>
+                    <td ><input id="income" class="InputBox" name="income" type="number" min="0"></td>
+                </tr>
+            </table>
+            <div class="CategoryHeader">
+                <h3>Item Information</h3>
+            </div>
+            <div id="Items">
+                <p>Which of the following do you have?</p>
+                <table>
+                    <tr>
+                        <td><input type="checkbox" id="vehicle" value="vehicle"></td>
+                        <td><label>Vehicle</label></td>
+                        <td><input type="checkbox" id="rrsp" value="rrsp"></td>
+                        <td><label>RRSP</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="tfsa" value="tfsa"></td>
+                        <td><label>TFSA</label></td>
+                        <td><input type="checkbox" id="rrif" value="rrif"></td>
+                        <td><label>RRIF</label></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <input class="Button" type="submit" onclick="onFormSubmit();">
+                <input class="Button" type="reset">
+            </div>
+        </form>
+   </div>
+   <div id="ListArea">
+        <h2>Client List </h2>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Converter</title>
+</head>
+<body onload="measurementChange()">
+    <div id="mainContentArea">
+        <h1>Metric to Imperial Converter</h1>
+        <div>
+            <label>Measurement Selector</label>
+            <select name="Choose Measuerment:" id="measurement" onchange="measurementChange()">
+                <option value="area">Area</option>
+                <option value="length">Length</option>
+                <option value="mass">Mass</option>
+                <option value="volume">Volume</option>
+            </select>
+        </div>
+        <div>
+            <div>
+                <table>
+                    <tr>
+                        <td><label>Metric Measuerment in <span id="metricUnit"></span></label></td>
+                        <td><input type="number" id="metric" onchange="updateOnMetric()"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Imperial Measuerment in <span id="imperialUnit"></span></label></td>
+                        <td><input type="number" id="imperial" onchange="updateOnImperial()"></td>
+                    </tr>
+                </table>
+            </div>  
+        </div>
+    </div>
+</body>
+</html>

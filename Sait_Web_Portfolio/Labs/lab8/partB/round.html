@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <div id="Circle_Cake">
+        <table id="Circle_Cake_Table">
+            <tr>
+                <td class="tooltip"><label class="Field">Radius in cm</label> <span class="tooltiptext">Min radius:15 max radius:30</span></td>
+                <td><input type="number" id="radius" min="15" max="30" onchange="calc()"></td>
+            </tr>
+        </table>
+    </div>
+    <table id="Layers_Table">
+        <tr>
+            <td class="tooltip"><label class="Field">Layers</label> <span class="tooltiptext">Must have one layer</span></td>
+            <td><input type="number" id="layers" min="1" max="99" onchange="calc()"></td>
+        </tr>
+    </table>
+    <table id="Extras">
+        <tr>
+            <td class="tooltip"><label>Cream Cheese Icing</label> <span class="tooltiptext">Replaces normal icing with cream cheese icing</span></td>
+            <td><input type="checkbox" id="icing" onchange="calc()"></td>
+        </tr>
+        <tr>
+            <td class="tooltip"><label>Fruit and Almond Toppings</label> <span class="tooltiptext">Sprinkle Fruit and almonds among the surface of the Cake</span></td>
+            <td><input type="checkbox" id="toppings" onchange="calc()"></td>
+        </tr>
+        <tr>
+            <td class="tooltip"><label>Fruit Jam Filling</label> <span class="tooltiptext">Jam filling inbetween the layers</span></td>
+            <td><input type="checkbox" id="filling" onchange="calc()"></td>
+        </tr>
+    </table>
+</body>
+</html>

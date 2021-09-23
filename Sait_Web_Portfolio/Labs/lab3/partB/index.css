@@ -1,0 +1,36 @@
+body{
+    color:gold;
+    background-image: url("images/background.png");
+    background-size: 100%;
+    opacity: 93%;
+}
+#Main_Content_Area{
+    font-family: 'Lucida Sans',sans-serif;
+    margin: auto;
+    margin-top: 10%;
+    max-width: 50%;
+    background-color: rgb(14, 63, 124);
+    padding: 10px;
+    border-radius: 10px;
+}
+td{
+    padding-bottom: 20px;
+}
+#Title{
+    text-align: center;
+    font-size: 150%;
+}
+table{
+    width: 100%;
+}
+input{
+    width: 98%;
+}
+.InputBox{
+    width: 80%;
+}
+.Button{
+    display: inline block;
+    width: 49%;
+}
+

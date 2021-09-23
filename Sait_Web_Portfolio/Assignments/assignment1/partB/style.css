@@ -1,0 +1,101 @@
+body{
+    background-color: beige;
+}
+#Header{
+    background-color: rgb(0, 128, 6);
+    color: white;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: center;
+}
+#Main_Content_Area{
+    max-width: 80%;
+    margin: auto;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+h2{
+    background-color: rgb(0, 128, 6);
+    color: white;
+    margin-left: -30px;
+    margin-right: -30px;
+    text-align: center;
+    padding: 2px;
+}
+h3{
+    background-color: rgb(0, 128, 6);
+    color: white;
+    margin-left: -30px;
+    margin-right: -30px;
+    text-align: left;
+    padding: 2px;
+    padding-left: 15%;
+}
+img{
+    width: 100px;
+    height: 100px;
+    transition: 1.5s;
+
+}
+img:hover{
+    width: 200px;
+    height: 200px;
+}
+#logo{
+    width: 200px;
+    height: 200px;
+}
+
+#Error_Handler{
+    text-align: center;
+    color: black;
+    background-color: lightcoral;
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+    display: none;
+}
+#Order_Table{
+    width: 50%;
+    margin: auto;
+}
+#Order_Table input{
+    width: 80%;
+}
+#Hamper_Table{
+    width: 80%;
+    margin: auto;
+}
+#Hamper_Table input{
+    max-width: 15%;
+}
+#Meat_Table{
+    width: 80%;
+    margin: auto;
+}
+#Meat_Table input{
+    max-width: 15%;
+}
+.Buttons{
+    margin: auto;
+    max-width: 40%;
+}
+.Button{
+    display: inline block;
+    width: 40%;
+}
+
+#Order_Information_Form{
+    display: none;
+}
+#Order_Shopping{
+    display: block;
+}
+#Receipt{
+    display: none;
+}
+#delivery{
+    visibility: hidden;
+}

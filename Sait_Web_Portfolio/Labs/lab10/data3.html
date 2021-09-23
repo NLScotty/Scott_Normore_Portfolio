@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script3.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Lab 9</title>
+</head>
+<body>
+    <div id="Main_Content_Area">
+        <h1>Calgary School Search Tool</h1>
+        <div id="Search Area">
+            <span>Search By:</span>
+            <select name="searchOption" id="searchOption">
+                <option value="name"> School Name</option>
+                <option value="type"> School Type</option>
+            </select>
+            <span>Value:</span>
+            <input type="text" id="input">
+        </div>
+        <div id="Table_Area">
+            <table id="table">
+                <thead>
+                    <th scope="col"> Name</th>
+                    <th scope="col"> Type </th>
+                    <th scope="col"> Address</th>
+                </thead>
+                <tbody id="tbody"></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

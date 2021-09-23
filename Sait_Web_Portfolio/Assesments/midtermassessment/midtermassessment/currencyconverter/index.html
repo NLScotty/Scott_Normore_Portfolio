@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm Project A</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="Content_Area">
+        <h1>Currency Converter</h1>
+        <h2>Please enter desired currency and amount to start converting!</h2>
+        <table>
+            <tr>
+                <td><label>Currency From:</label></td>
+                <td><label>Currency To:</label></td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="cur1_type" id="cur1_type" onchange="updateCur1Update();">
+                        <option value="euro">Euro</option>
+                        <option value="uDollar">US Dollar</option>
+                        <option value="cDollar">Canadian Dollar</option>
+                        <option value="bCoin">Bitcoin Digital Currency</option>
+                        <option value="eCoin">Ethereum Digital Currency</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="cur2_type" id="cur2_type" onchange="updateCur2Update();">
+                        <option value="euro">Euro</option>
+                        <option value="uDollar">US Dollar</option>
+                        <option value="cDollar">Canadian Dollar</option>
+                        <option value="bCoin">Bitcoin Digital Currency</option>
+                        <option value="eCoin">Ethereum Digital Currency</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="number" id="cur1_amount" onchange="updateCur1Update();" min="0"><label id="cur1_label"> Euros</label></td>
+                <td><input type="number" id="cur2_amount" onchange="updateCur2Update();" min="0"><label id="cur2_label"> Euros</label></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

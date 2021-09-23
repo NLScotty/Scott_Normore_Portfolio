@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/rentalpage.css">
+    <script src="script.js"></script>
+    <title>Rent Easy Page</title>
+</head>
+<body>
+    <div id="Display_Boxes">
+        <div id="Client_Box">
+            <h2>Client Search</h2>
+            <label>Last Name</label><input type="text" id="lname_search">
+            <h3>Client Selector</h3>
+            <select size="28" id="Client_List">
+            </select>
+        </div>
+        <div id="Form_Box">
+            <h2>Order Details</h2>
+            <h3>Client Information</h3>
+            <form onsubmit="displayOrder(); return false;">
+                <table id="Client_Info">
+                    <tr>
+                        <td>First Name:</td>
+                        <td><input class="client_field" type="text" id="fname" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name:</td>
+                        <td><input class="client_field" type="text" id="lname" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number:</td>
+                        <td><input class="client_field" type="tel" id="pnumber" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td><input class="client_field" type="text" id="address" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>State/Province:</td>
+                        <td><input class="client_field" type="text" id="prov" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input class="client_field" type="email" id="email" disabled></td>
+                    </tr>
+                </table>
+                <h3>Car Selctions</h3>
+                <table id="Car_Selector">
+                    <tr>
+                        <td><img src="images/compactcar.jpg" alt = "compact"></td>
+                        <td><input type="radio" name="car" id="compact" value="compact" class="client_field" disabled></td>
+                        <td>Compact Car</td>
+                        <td>$25/day</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/car.png" alt = "compact"></td>
+                        <td><input type="radio" name="car" id="midsize" value="midsize" class="client_field" disabled></td>
+                        <td>Midsize Car</td>
+                        <td>$30/day</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/sportscar.jpg" alt = "compact"></td>
+                        <td><input type="radio" name="car" id="luxury" value="luxury" class="client_field" disabled></td>
+                        <td>Luxury Car</td>
+                        <td>$35/day</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/truck.png" alt = "compact"></td>
+                        <td><input type="radio" name="car" id="vantruck" value="vantruck" class="client_field" disabled></td>
+                        <td>Van/Truck</td>
+                        <td>$40/day</td>
+                    </tr>
+                </table>
+                <table id="duration_table">
+                    <tr>
+                        <td>Rental Duration:</td>
+                        <td><input type="number" id="duration" class="client_field" max="30" min="1" value="1" disabled></td>
+                    </tr>
+                </table>
+                <h3>Other Add-ons</h3>
+                <table id="Addons">
+                    <tr>
+                        <td><input type="checkbox" id="roofrack" class="client_field" disabled></td>
+                        <td>Roof Rack</td>
+                        <td>$5/day</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="bikerack" class="client_field" disabled></td>
+                        <td>Bicycle Rack</td>
+                        <td>$5/day</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="gps" class="client_field" disabled></td>
+                        <td>GPS device</td>
+                        <td>$10/day</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="childseat" class="client_field" disabled></td>
+                        <td>Child Seat</td>
+                        <td>Free</td>
+                    </tr>
+                </table>
+                <table id="buttons">
+                    <tr>
+                        <td><input type="reset"></td>
+                        <td><input type="submit"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <div id="Result">
+        <h2>Finalized Order</h2>
+        <p id="Customer_Information"></p>
+        <table id="Result_Table">
+        </table>
+    </div>
+</body>
+</html>

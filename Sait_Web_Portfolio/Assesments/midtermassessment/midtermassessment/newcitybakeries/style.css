@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+
+body{
+    background-color: #ffb1c4;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%23f9ffd7' fill-opacity='0.78' fill-rule='evenodd'/%3E%3C/svg%3E");
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+table{
+    border-spacing: 10px;
+}
+#Main_Content_Area{
+    background: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 20px 20px 20px 20px;
+    font-size:120%;
+}
+#Title_Area{
+    background: #f88d9f;
+    color: white;
+    text-align: center;
+    height: 5em;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 170%;
+    font-family: 'Emilys Candy', cursive;
+}
+#title{
+    display: inline-block;
+}
+#logo{
+    padding-top: 5px;
+    display: inline-block;
+    width: 60px;
+    height: 80px;
+    position: relative;
+    top:15px;
+}
+h2{
+    text-align: center;
+}
+#Customer_Table{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.InfoInputBox{
+    width: 80%;
+}
+.InfoInputBox input{
+    width: 80%;
+}
+#pCode{
+    width: 70px;
+    margin-left: 9.15%;
+    float: left;
+}
+#phone{
+    width: 110px;
+    margin-left: 9.15%;
+    float: left;
+}
+#fName{
+    width: 200px;
+    margin-left: 9.15%;
+    float: left;
+}
+#lName{
+    width: 200px;
+    margin-left: 9.15%;
+    float: left;
+}
+#Cake_Selection{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+#Sheet_Cake_Table{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+#Circle_Cake_Table{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+#Layers_Table{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+#Extras{
+    width: 60%;
+    margin: auto;
+    text-align: center; 
+}
+
+#button{
+    float: center;
+}
+.Field{
+    font-weight: bolder;
+}
+
+#buttons{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.Button{
+    width: 30%;
+}
+#Circle_Cake{
+    display: none;
+}
+
+#Invoice_Page{
+    text-align: left;
+    width: 50%;
+    margin: auto;
+    display: none;
+}
+
+/* The Tool tips were made throught the W3schools tutorial, here: https://www.w3schools.com/css/css_tooltip.asp */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #f88d9f;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+    font-size: 90%;
+}
+  
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #f88d9f;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}

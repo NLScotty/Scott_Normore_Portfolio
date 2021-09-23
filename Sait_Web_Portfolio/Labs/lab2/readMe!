@@ -1,0 +1,23 @@
+This is Scott Normore's Submission for Lab 2
+------------------------------------
+Part A
+------------------------------------
+I took some time to format the photo so it shrinks or grows with page size. I use in my css
+negative values for marigins so that the dividers touch the ends of the page. I also added 
+custom google fonts as recommended. I importhem straight from the site, so it will require
+internet access. If not connected, I use a different font family anyways to highlight how it
+changes using the @media print tag.
+
+-----------------------------------
+Part B
+-----------------------------------
+I have photos a subfolder of images because I felt it was appropiate, because not all images are photos, but photos are images.
+
+I use a image for the back ground. I also use a google font using the same method as part A. 
+I took some time to format the images so that they look good on most computer screens.
+They will orient themselves 2 at a time unless it is too little space, then they will display one by one.
+The image will shrink in width if the page is not wide enough. The caption of the image is always centered below the image.
+
+In the revision, I added descriptions of the pictures along with the captions, as required.
+
+Let me know if I missed anything, or any other tips you would recommended.
